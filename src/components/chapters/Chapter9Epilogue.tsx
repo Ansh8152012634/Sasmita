@@ -419,7 +419,7 @@ export function Chapter9Epilogue({ fadeOutAudio, playGiftReadySfx, playTulipBloo
                   '0 2px 4px rgba(0,0,0,0.5)',
               }}
             >
-              Made by Ayush
+              Made by Anshu
             </motion.p>
 
             {/* Subtle tagline below */}
