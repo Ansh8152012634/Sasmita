@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+﻿import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { GoldenParticles } from '@/components/ending/GoldenParticles';
 import { WarmLight } from '@/components/ending/WarmLight';
@@ -36,7 +36,6 @@ const BOKEH = Array.from({ length: 30 }, (_, i) => ({
 
 const LETTER_PARAGRAPHS = [
   'One last page...
-
 '',
 
 "Happy Birthday, ! ❤️ Honestly, I never thought meeting someone randomly on Snapchat would lead to me knowing such a genuinely nice person. Our random talks, jokes, and conversations somehow became really special to me. 🫶🏻",
@@ -475,3 +474,4 @@ export function Chapter9Epilogue({ fadeOutAudio, playGiftReadySfx, playTulipBloo
     </div>
   );
 }
+
