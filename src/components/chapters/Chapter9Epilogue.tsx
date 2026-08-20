@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { GoldenParticles } from '@/components/ending/GoldenParticles';
 import { WarmLight } from '@/components/ending/WarmLight';
@@ -35,24 +35,25 @@ const BOKEH = Array.from({ length: 30 }, (_, i) => ({
 }));
 
 const LETTER_PARAGRAPHS = [
-  'One last page...
-'',
+   'One last page...',
+  '',
+  "Howdy? 🤠 Ig it might be around 12:09 if not then perhaps i would have become lazy and fogot to give you this. I wanted to wish you 1st but I think I'm not? 🤔 Maybe 2nd, no? Okay!... Okay! then 3rd? Still no? 🥲 Forget it. Wishing you is imp, not ranking.",
 
-"Happy Birthday, ! ❤️ Honestly, I never thought meeting someone randomly on Snapchat would lead to me knowing such a genuinely nice person. Our random talks, jokes, and conversations somehow became really special to me. 🫶🏻",
+  "You’re actually not just a friend; you’re my built-in best friend. Whenever I talk to you, even for a few minutes, my whole mood changes. I don’t know how, maybe you got some kind of powers? Hmm..🧐",
 
-'',
+  "No filters, no fake vibes, just you. And as an introvert, having someone like you is truly a blessing... I could've written a poem instead of this, but I don't think any poem could do you justice. Yes sirrr! I'm a poet and writer.",
 
-"You once told me that you liked me, and honestly, you’re someone I like too. ❤️ I just respected your decision to focus on your studies because I never wanted anything between us to affect your goals or peace. Your dreams matter, and I’ll always respect that.",
+  "Well, I could have just wished you like normal ppl, like texting 'happy b'day' or posting a story. Then what would be the difference between them and me? 😮‍💨",
 
-"I’m really glad I met you, and I hope we always share this bond, no matter where life takes us. You’re genuinely a wonderful person, and I hope you never doubt that.",
+  "So it's my way of wishing to special ones and this might be the last time I'm making this 🥀 (ig?). Also sorry for taking your photos without your consent 😝.",
 
-'',
+  "And don't start with Call me didi just cause you are 1yr older than me 😒. Chachi, you may be older than me in age but you'll still be a chirkut (Duckling, cute one though) 🐥. Now, say 'I'm the best!' and go enjoy your day.",
 
-"May this year bring you lots of happiness, beautiful memories, and success in everything you do. ❤️",
+  "I really don't know what else to say. I'm just grateful and ik it may kinda sound cringee? If so, really solly. I'm juust a geek I guess hehehehe!",
 
-"Once again, Happy Birthday, Sasmita! 🎂❤️ ",
+  '',
 
-"Stay happy, keep smiling, and always be the amazing person you are."
+  'Happy Birthday once again, Shriya. ❤️',
 ];
 
 const PHOTO_ROTATIONS = [-3.2, 2.1, -1.8, 3.5];
@@ -72,7 +73,7 @@ type Scene =
   | 'gift-card'
   | 'gift-ready'
   // ── New ending (credits → rose) ──
-  | 'credits'       // "Made with ❤️ by Anshu" appears FIRST
+  | 'credits'       // "Made by Ayush" appears FIRST
   | 'rose-grow'     // credits fades, rose stem grows
   | 'rose-bloom'    // petals open + SFX
   | 'final-message' // "Some memories don't fade. They simply bloom."
@@ -418,7 +419,7 @@ export function Chapter9Epilogue({ fadeOutAudio, playGiftReadySfx, playTulipBloo
                   '0 2px 4px rgba(0,0,0,0.5)',
               }}
             >
-              Made with ❤️ by Anshu
+              Made by Ayush
             </motion.p>
 
             {/* Subtle tagline below */}
@@ -458,7 +459,13 @@ export function Chapter9Epilogue({ fadeOutAudio, playGiftReadySfx, playTulipBloo
             {/* Rose — anchored to bottom-center */}
             <motion.div
               className="absolute flex items-end justify-center"
-              style={{ bottom: 0, left: '50%', transform: 'translateX(-50%)', zIndex: 29 }}
+              style={{
+                inset: 0,
+                width: '100%',
+                height: '100%',
+                overflow: 'visible',
+                zIndex: 29,
+              }}
               initial={{ opacity: 0, y: 80 }}
               animate={roseVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 80 }}
               transition={{ duration: 2.4, ease: [0.22, 1, 0.36, 1] }}
@@ -474,4 +481,3 @@ export function Chapter9Epilogue({ fadeOutAudio, playGiftReadySfx, playTulipBloo
     </div>
   );
 }
-
