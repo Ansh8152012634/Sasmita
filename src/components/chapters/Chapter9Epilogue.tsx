@@ -37,23 +37,23 @@ const BOKEH = Array.from({ length: 30 }, (_, i) => ({
 const LETTER_PARAGRAPHS = [
    'One last page...',
   '',
-  "Howdy? 🤠 Ig it might be around 12:09 if not then perhaps i would have become lazy and fogot to give you this. I wanted to wish you 1st but I think I'm not? 🤔 Maybe 2nd, no? Okay!... Okay! then 3rd? Still no? 🥲 Forget it. Wishing you is imp, not ranking.",
+  "Happy Birthday, Sasmita! ❤️",
 
-  "You’re actually not just a friend; you’re my built-in best friend. Whenever I talk to you, even for a few minutes, my whole mood changes. I don’t know how, maybe you got some kind of powers? Hmm..🧐",
+  "Honestly, I never thought that meeting someone randomly on Snapchat would lead to me knowing such a genuinely nice person. In the time that I’ve known you, I’ve realized that you’re not just a good person, but someone who has a really beautiful heart. Our conversations, the random talks, the jokes, everything somehow became special to me.",
 
-  "No filters, no fake vibes, just you. And as an introvert, having someone like you is truly a blessing... I could've written a poem instead of this, but I don't think any poem could do you justice. Yes sirrr! I'm a poet and writer.",
+  "And there’s something I’ve wanted to say too. You once told me that you liked me, and honestly, you’re someone I like too. ❤️ I just respected what you said about focusing on studies, because I never wanted anything between us to affect your goals or your peace. Your future and your dreams matter, and I’ll always respect.",
 
-  "Well, I could have just wished you like normal ppl, like texting 'happy b'day' or posting a story. Then what would be the difference between them and me? 😮‍💨",
+  "On your birthday, I just hope you get everything you genuinely deserve — happiness, peace, success, and people who always value you for the person you are. Never doubt yourself or think that you’re not enough, because you’re genuinely a really good person.",
 
-  "So it's my way of wishing to special ones and this might be the last time I'm making this 🥀 (ig?). Also sorry for taking your photos without your consent 😝.",
+  "I’m really glad I met you, and I hope we continue to share the same bond, no matter where life takes us. Thank you for being such a good person and for becoming someone I genuinely care about. ❤️",
 
-  "And don't start with Call me didi just cause you are 1yr older than me 😒. Chachi, you may be older than me in age but you'll still be a chirkut (Duckling, cute one though) 🐥. Now, say 'I'm the best!' and go enjoy your day.",
-
-  "I really don't know what else to say. I'm just grateful and ik it may kinda sound cringee? If so, really solly. I'm juust a geek I guess hehehehe!",
+  "I hope this year brings you countless reasons to smile, lots of beautiful memories, and success in everything you work for",
+  
+  "I really don't know what else to say. I'm just grateful to meet you hope always achieve what you hope for",
 
   '',
 
-  'Happy Birthday once again, Shriya. ❤️',
+  'Happy Birthday once again, Sasmita. ❤️',
 ];
 
 const PHOTO_ROTATIONS = [-3.2, 2.1, -1.8, 3.5];
